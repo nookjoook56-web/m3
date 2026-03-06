@@ -5,7 +5,7 @@ import os
 
 # GitHub Secrets üzerinden gelecek bilgiler
 GITHUB_TOKEN = os.getenv("MY_GITHUB_TOKEN")
-REPO_NAME = "nookjoook56-web/hortlak" # Kendi kullanıcı adın/repo adın
+REPO_NAME = "nookjoook56-web/m3" # Kendi kullanıcı adın/repo adın
 FILE_PATH = "playlist.m3u"
 
 def update_github(content):
